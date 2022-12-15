@@ -4,6 +4,9 @@
 This is simple app where we can attemt questions added by the admin.
 The home page "Dashboard" consists of questions added by the admin and there is a "Questions" page in the Navbar which can only accesssed by admin (using the superuser credentials). 
 
+
+<img src="Media/Capture.jpg"  width="500" height="600">
+
 The Questions page contains the following:
 
 1. Add Questions
