@@ -1,0 +1,15 @@
+{%  extends 'Quiz/main.html' %}
+{% load static %}
+{% block content %}
+
+<form action='' method='POST'>
+    {% csrf_token %}
+    {% comment %} {{formset.management_form}} {% endcomment %}
+
+    {% comment %} {% for form in formset %} {% endcomment %}
+    {{form.as_p}}<hr>
+    {% comment %} {% endfor %} {% endcomment %}
+    <input type="submit" name="Submit">
+</form>
+
+{% endblock %}

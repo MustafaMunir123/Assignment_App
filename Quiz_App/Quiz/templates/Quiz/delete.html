@@ -1,0 +1,12 @@
+{%  extends 'Quiz/main.html' %}
+{% load static %}
+{% block content %}
+<h3>Are you sure you want to delete : </h3 <p>{{ques}}</p>
+<form action='' method="POST">
+        {% csrf_token %}
+        <a class="btn btn-primary  btn-sm btn-warning" href="{% url 'all_questions' %}">Cancle</a>
+        <input class="btn btn-primary  btn-sm btn-danger" type="submit" name="Submit" >
+
+</form>
+
+{% endblock %}

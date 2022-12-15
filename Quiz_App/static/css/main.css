@@ -1,0 +1,36 @@
+
+
+
+	
+
+    body{
+        background-color: #ebeff5;
+    }
+
+
+    #total-orders{
+        background-color: #4cb4c7;
+    }
+
+
+    #orders-delivered{
+        background-color: #7abecc;
+    }
+
+    #orders-pending{
+        background-color: #7CD1C0;
+    }
+
+    .demo-question{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* .color {
+        background-color: #ebeff5 !important;
+        border: 2px solid red;
+    } */
+
+
+

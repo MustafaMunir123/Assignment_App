@@ -1,0 +1,35 @@
+{%  extends 'Quiz/main.html' %}
+{% load static %}
+{% block content %}
+
+
+<div class="card-header d-flex justify-content-between ">
+    <div class="d-flex justify-content-center">
+        
+            <div class="d-flex justify-content-between">
+
+
+            </div>
+                <form method="POST" action="">
+                    
+                    <div class="card-header d-flex  ">
+                        
+                        <a class="btn btn-danger  ml-1 " type="button" href="{% url "add_question" %}">Add Questions</a>
+
+                    </div>
+                    <div class="card-header d-flex  ">
+                        
+						<a class="btn btn-danger  ml-1 " type="button" href="{% url "all_questions" %}">Show all Questions</a>
+                    </div>
+
+                        
+                </form>
+
+            
+    
+            
+        
+    </div>
+</div>
+
+{% endblock %}
